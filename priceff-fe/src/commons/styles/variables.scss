@@ -1,0 +1,27 @@
+// PALETTE
+$color-black: #000;
+$color-white: #ffffff;
+
+// FONTS
+$font-family-primary: 'Montserrat', sans-serif;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$font-size-tiny: 0.625rem;        // 10px
+$font-size-small: 0.875rem;       // 14px
+$font-size-normal: 1rem;          // 16px
+$font-size-large: 1.125rem;       // 18px
+$font-size-big: 2rem;             // 32px
+$font-size-huge: 3.375rem;        // 54px
+
+// BREAKPOINTS
+$bp-zero: 600px;
+$bp-tablet: 767px;
+$bp-menu: 900px;
+$bp-desktop: 1024px;
+
+$viewport-size: 1440px;
+$viewport-gutter-mobile: 10px;
+$viewport-gutter: 50px;
