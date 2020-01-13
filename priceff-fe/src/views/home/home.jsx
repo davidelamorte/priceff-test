@@ -62,7 +62,7 @@ class HomePage extends PureComponent {
               <div className={style.line}>
                 <span className={style.title}>AVERAGE AGE: </span>
                 <span className={style.info}>
-                {`${currentPopulation.population.averageAge}`}
+                {`${Math.trunc(currentPopulation.population.averageAge)}`}
                 </span>
               </div>
               <div className={style.line}>
